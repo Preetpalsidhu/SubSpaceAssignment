@@ -1,16 +1,10 @@
 # sub_space
 
-A new Flutter project.
+Instruction to Run the App:
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the git repository
+2. Open code in VS code(any ide) or cmd in the code folder.
+3. Run "flutter doctor" to check that all the requirement of flutter development is met.
+4. run "flutter pub get" to get all required dependencies
+5. connect a android phone by usb (with usb debugging turnned on) or launch a virtual machine in Android Studio
+6. run "flutter run" in terminal 
