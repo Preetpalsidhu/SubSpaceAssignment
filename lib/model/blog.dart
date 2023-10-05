@@ -8,7 +8,7 @@ class Blog {
   factory Blog.fromJson(Map<String, dynamic> json) {
     return Blog(
       id: json['id'],
-      imageUrl: json['image_url'],
+      imageUrl: json['image_url'] ?? '',
       title: json['title'],
     );
   }
